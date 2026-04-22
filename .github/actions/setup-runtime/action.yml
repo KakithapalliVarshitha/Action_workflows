@@ -1,0 +1,9 @@
+name: Setup Runtime
+description: This action sets up the runtime environment
+
+runs:
+  using: "composite"
+  steps:
+    - name: Say Hello
+      run: echo "Hello! Runtime setup started"
+      shell: bash
